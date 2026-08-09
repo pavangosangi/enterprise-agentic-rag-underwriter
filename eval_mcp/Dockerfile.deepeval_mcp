@@ -1,0 +1,18 @@
+FROM python:3.10-slim
+
+WORKDIR /app
+
+# Install required dependencies
+RUN apt-get update && apt-get install -y socat && rm -rf /var/lib/apt/lists/*
+RUN pip install --no-cache-dir mcp deepeval langchain-google-genai langchain-community uvicorn starlette sse-starlette
+
+# Copy the MCP server script
+COPY deepeval_mcp.py .
+
+# Environment variables can be passed at runtime, but we ensure it fails gracefully if missing
+ENV PYTHONUNBUFFERED=1
+ENV FASTMCP_HOST=0.0.0.0
+ENV FASTMCP_PORT=8083
+
+# Run the MCP server and proxy 0.0.0.0:8083 to its stubborn 127.0.0.1:8000 port
+ENTRYPOINT ["/bin/sh", "-c", "socat TCP-LISTEN:8083,fork,bind=0.0.0.0 TCP:127.0.0.1:8000 & python deepeval_mcp.py"]

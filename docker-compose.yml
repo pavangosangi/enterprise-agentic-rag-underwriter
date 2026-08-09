@@ -1,0 +1,106 @@
+services:
+  # The "Brain" - Local LLM with GPU support
+  ollama:
+    image: ollama/ollama:latest
+    container_name: ollama_local
+    ports:
+      - "11434:11434"
+    volumes:
+      - ./ollama_data:/root/.ollama
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [ gpu ]
+    restart: always
+    environment:
+      - OLLAMA_NUM_PARALLEL=1 # Reduced from 4 to 1 to save VRAM for KV cache
+      - OLLAMA_MAX_LOADED_MODELS=3 # Keeps both models cached in VRAM simultaneously
+      - OLLAMA_KEEP_ALIVE=-1 # Keeps models loaded in VRAM forever (never unloads)
+
+  # The "Memory" - Vector Database
+  qdrant:
+    image: qdrant/qdrant:latest
+    container_name: qdrant_db
+    ports:
+      - "6333:6333"
+      - "6334:6334"
+    volumes:
+      - ./qdrant_data:/qdrant/storage
+    restart: always
+
+  # The "Parser" - Pre-built with Tesseract and Poppler
+  unstructured-api:
+    image: downloads.unstructured.io/unstructured-io/unstructured-api:latest
+    container_name: unstructured_api
+    ports:
+      - "8001:8000"
+    environment:
+      - UNSTRUCTURED_PARALLEL_MODE_ENABLED=false
+    restart: always
+
+  # The "App" - FastAPI Backend
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile.app
+    container_name: pnc_app
+    command: uvicorn main:app --host 0.0.0.0 --port 8000
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app
+    environment:
+      - QDRANT_HOST=qdrant
+      - OLLAMA_HOST=http://ollama:11434
+      - UNSTRUCTURED_URL=http://unstructured-api:8000/general/v0/general
+    depends_on:
+      - qdrant
+      - ollama
+      - unstructured-api
+
+  # The "UI" - Streamlit Frontend UI
+  ui:
+    build:
+      context: .
+      dockerfile: Dockerfile.app
+    container_name: pnc_ui
+    command: streamlit run streamlit_app.py --server.port 8501 --server.address 0.0.0.0
+    ports:
+      - "8501:8501"
+    volumes:
+      - .:/app
+    environment:
+      - API_URL=http://app:8000
+    depends_on:
+      - app
+
+  # The "MCP Eval" - DeepEval MCP Server
+  deepeval-mcp:
+    build:
+      context: ./eval_mcp
+      dockerfile: Dockerfile.deepeval_mcp
+    container_name: deepeval_mcp
+    ports:
+      - "8083:8083"
+    volumes:
+      - ./eval_mcp:/app
+    restart: always
+
+  # The "Vite UI" - New Containerized React App
+  vite-ui:
+    build:
+      context: ./vite-app
+      dockerfile: Dockerfile
+    container_name: vite_ui
+    ports:
+      - "8086:8086"
+    volumes:
+      - ./vite-app:/app
+      - /app/node_modules
+    environment:
+      - API_URL=http://app:8000
+    depends_on:
+      - app

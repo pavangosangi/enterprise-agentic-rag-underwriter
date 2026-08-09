@@ -1,0 +1,152 @@
+[
+  {
+    "question": "Under what conditions does an Initial Model Age (MAGE) adjustment factor apply to liability coverages, and how is this factor's duration determined?",
+    "context": "For vehicles with physical damage (also known as FC or Full Coverage Profile), an Initial Model Age (MAGE) adjustment factor may apply to the liability coverages. The Initial Model Age of the vehicle represents the Model Age at the time the vehicle is added, and will remain until the vehicle is removed or the policy expires.",
+    "answer": "An Initial Model Age (MAGE) adjustment factor can be applied to liability coverages for vehicles that have physical damage (also known as FC or Full Coverage Profile). This factor is determined by the vehicle's model age when it is first added to the policy and will stay constant until the vehicle is removed from the policy or the policy itself expires."
+  },
+  {
+    "question": "How are drivers selected for rating when the number of drivers is less than the number of vehicles, and how does this process differ for non-owner policies?",
+    "context": "The highest rated (based on Property Damage) drivers are selected, up to the number of vehicles. If there are fewer drivers than vehicles, all drivers are selected. For non-owner policies, just the highest rated (based on Property Damage) driver is selected.",
+    "answer": "When the number of drivers is less than the number of vehicles, all available drivers are selected for rating. In contrast, for non-owner policies, only the single highest-rated driver, based on Property Damage, is selected for rating."
+  },
+  {
+    "question": "What is the designated page for the Business Owner Program identified as AIR - BUI?",
+    "context": "Business Owner Program AIR - BUI .....................4",
+    "answer": "The Business Owner Program identified as AIR - BUI can be found on page 4 of the manual."
+  },
+  {
+    "question": "If an underwriter needs to access details for a Business Owner Program that falls within the PAI through VET alphabetical range, which page number should they reference?",
+    "context": "Business Owner Program PAI - VET ......................8",
+    "answer": "The underwriter should reference page 8 for the Business Owner Program details covering the PAI through VET alphabetical range."
+  },
+  {
+    "question": "What page number contains the underwriting information for manufacturing businesses whose names begin with letters from M to Z?",
+    "context": "Manufacturing M - Z ...........................................10",
+    "answer": "The underwriting information for manufacturing businesses with names starting from M to Z is located on page 10."
+  },
+  {
+    "question": "What are the specific criteria for 'Major Violations' and what is the look-back period for these violations for all drivers, regardless of age?",
+    "context": "Major Violations (see below) None in the past 5 years None in the past 5 years MAJOR VIOLATIONS Driving while intoxicated/under the influence of drugs Driving with an open container of an alcoholic beverage Reckless Driving/Driving to endanger Distracted Driving Negligent homicide arising out of the use of a motor vehicle Driving with suspended license Using a motor vehicle to commit a felony Aggravated assault with a motor vehicle Speed contest Hit and run/Failure to report an accident Eluding a police officer Permitting an unlicensed person to drive Passing a stopped school bus Grand theft auto",
+    "answer": "Major violations include offenses such as driving while intoxicated, reckless driving, negligent homicide, driving with a suspended license, and hit and run. For all drivers, regardless of age, there must be no major violations in the past 5 years to meet the policy guidelines."
+  },
+  {
+    "question": "How do the guidelines for a combination of accidents and violations differ between drivers aged 25 and older compared to drivers under 25?",
+    "context": "Combination of Accidents/Violations 1 accident/violation in 12 months or 2 accidents/violations in 3 years 1 accident/violation in 3 years",
+    "answer": "For drivers aged 25 and older, the maximum allowable combination is 1 accident/violation in the past 12 months or 2 accidents/violations in the past 3 years. For drivers under 25, the limit is stricter, allowing no more than 1 accident/violation in the past 3 years."
+  },
+  {
+    "question": "What are the financial implications for an insured if they choose a repair facility not affiliated with the insurer's Preferred Provider Organization (PPO) when a PPO facility is available within the specified radius?",
+    "context": "If the insured elects to use a facility other than a preferred provider, the company will pay 70% of the loss, subject to policy provisions, not withstanding any applicable deductibles.",
+    "answer": "If the insured chooses a non-PPO repair facility when a PPO facility is available within a 25-mile radius, the insurer will only cover 70% of the loss, in addition to any applicable deductibles and other policy provisions."
+  },
+  {
+    "question": "Under what specific conditions can an insured obtain Comprehensive/Collision coverage for a vehicle operated by an unlisted driver, and what is the cost associated with this option?",
+    "context": "This policy does not provide Comprehensive/Collision coverage for any loss that occurs while any person not reported to and approved by the company and listed on the declarations is operating the vehicle. (See Physical Damage Named Driver Restriction Buyback. An applicant can purchase, for an additional premium charge, the option to remove this restriction for persons who do not live in the applicant\u2019s household.)",
+    "answer": "Comprehensive/Collision coverage is generally excluded if an unlisted and unapproved driver operates the vehicle. However, an applicant can purchase a 'Physical Damage Named Driver Restriction Buyback' for an additional premium, which specifically removes this restriction for drivers who do not reside in the applicant's household."
+  },
+  {
+    "question": "Under what specific billing condition is an installment fee applied?",
+    "context": "INSTALLMENT FEE ALL NON-EFT BILLING",
+    "answer": "An installment fee is applied to all billing that is not done via Electronic Funds Transfer (EFT)."
+  },
+  {
+    "question": "To which driver categories does the reinstatement fee apply?",
+    "context": "REINSTATEMENT FEE ALL GOOD DRIVER*** NON-GOOD DRIVER",
+    "answer": "The reinstatement fee applies to both good drivers and non-good drivers."
+  },
+  {
+    "question": "What specific actions must be taken by a producer to prevent a policy from lapsing if a payment is received late, and when must these actions occur?",
+    "context": "If unable to postmark or upload on time, notice of payment to producer and a copy of the check must be faxed to the Company before the date and time of cancellation. The money must be forwarded to the Company and postmarked or uploaded the next business day. Unless written notice is faxed prior to the date of cancellation, the applicant\u2019s policy will lapse. Producers have authority to accept checks on our behalf, but may not continue coverage unless we are notified prior to cancellation by upload or facsimiled proof that a check or money order has been received.",
+    "answer": "To prevent a policy from lapsing due to a late payment, the producer must fax a notice of payment and a copy of the check to the Company before the cancellation date and time. The actual payment must then be forwarded to the Company and postmarked or uploaded by the next business day. Additionally, producers cannot continue coverage unless the Company is notified prior to cancellation via upload or faxed proof of payment receipt."
+  },
+  {
+    "question": "Under what precise conditions can a policy, which was cancelled due to a lack of requested information, be reinstated?",
+    "context": "Policies cancelled for lack of information may be reinstated only if all requested information is received prior to the cancel date and there is no balance due from missed installment payments.",
+    "answer": "A policy cancelled because of missing information can only be reinstated if all the required information is submitted before the cancellation date, and there are no outstanding balances from any missed installment payments."
+  },
+  {
+    "question": "How are premium adjustments resulting from endorsements managed, especially concerning return premiums due to the applicant?",
+    "context": "Premium changes that result from endorsements will be reflected in installments issued after the endorsement is processed. Changes resulting in an additional premium will be billed to the applicant. Changes resulting in return premium due the applicant are applied as credits to future changes. If there is no remaining balance after all credits have been applied, a refund is sent to the applicant.",
+    "answer": "Premium changes from endorsements are applied to subsequent installments once processed. If an endorsement leads to an additional premium, the applicant will be billed. If it results in a return premium, that amount is first used as credits for any future changes. Should there be no outstanding balance after all credits have been utilized, the remaining return premium will be issued as a refund to the applicant."
+  },
+  {
+    "question": "Under what specific conditions are class or point reductions permitted for a policy mid-term?",
+    "context": "Class or point reductions are permitted if the operator(s) for whom points were charged is no longer a member of the household and no longer operates the applicant vehicle.",
+    "answer": "Class or point reductions are allowed mid-term only if the driver who was charged points is no longer living in the household and no longer drives the insured vehicle."
+  },
+  {
+    "question": "Will a policy be reclassified or re-rated mid-term if a driver's point charges expire or if a driver reaches a new age?",
+    "context": "A policy will not be reclassified and re-rated for point charges that expire during the policy term. Mid-term adjustments are not made as a result of a change in points or attained driver age.",
+    "answer": "No, a policy will not be reclassified or re-rated mid-term due to point charges expiring or a driver reaching a new age."
+  },
+  {
+    "question": "What are the potential repercussions for an applicant who fails to list all required persons with complete information on their insurance policy?",
+    "context": "FAILURE TO LIST ALL SUCH PERSONS WITH COMPLETE INFORMATION MAY CONSTITUTE A MATERIAL MISREPRESENTATION, WHICH MAY RESULT IN ALL INSURANCE COVERAGES BEING VOID. Should drivers be discovered that have not been disclosed on the policy, we may add them as drivers on the policy and adjust the rate accordingly, including any surcharges or discounts for which they qualify.",
+    "answer": "If an applicant fails to list all required persons with complete information, it may be considered a material misrepresentation, which could lead to all insurance coverages being voided. Furthermore, if undisclosed drivers are later discovered, the insurer reserves the right to add them to the policy and adjust the premium to reflect any applicable surcharges or discounts."
+  },
+  {
+    "question": "Besides residents aged 14 or older and regular operators, what specific groups of individuals must be listed on the application, even if they do not live with the applicant?",
+    "context": "\u2022 List students living away from home, persons in the Armed Services, and any children or dependents of the applicant or applicant\u2019s spouse between the age of 14 and 21 who do not reside with insured.",
+    "answer": "Beyond all persons 14 years or older residing with the applicant(s) and all regular operators, the policy requires listing students living away from home, individuals in the Armed Services, and any children or dependents of the applicant or their spouse who are between 14 and 21 years old and do not reside with the insured."
+  },
+  {
+    "question": "On which page can an agent find information regarding binding authority for new business?",
+    "context": "BINDING AUTHORITY \u2013 NEW BUSINESS ...................................................................................................................................................... 4",
+    "answer": "Information concerning binding authority for new business is located on page 4 of the underwriting manual."
+  },
+  {
+    "question": "What specific procedures are outlined on page 5 of the underwriting manual?",
+    "context": "SEVERE WEATHER PROCEDURES ................................................................................................................................................................. 5",
+    "answer": "The underwriting manual outlines severe weather procedures on page 5."
+  },
+  {
+    "question": "What are the available daily and total maximum benefits for Rental Reimbursement coverage?",
+    "context": "Rental Reimbursement $20/day $600 maximum total benefit or $30/day $900 maximum total benefit or $40/day $1,200 maximum total benefit or $50/day $1500 maximum total benefit or $60/day $1800 maximum total benefit.",
+    "answer": "The available Rental Reimbursement options include $20/day with a $600 total maximum, $30/day with a $900 total maximum, $40/day with a $1,200 total maximum, $50/day with a $1,500 total maximum, or $60/day with an $1,800 total maximum benefit."
+  },
+  {
+    "question": "What are the coverage limits for Uninsured Motorist Property Damage and what is the associated deductible?",
+    "context": "Uninsured Motorist Property Damage $7,500 or $10,000 Deductible: $250",
+    "answer": "Uninsured Motorist Property Damage coverage is available for either $7,500 or $10,000, and both options have a $250 deductible."
+  },
+  {
+    "question": "What are the specific horsepower thresholds that would make a vehicle ineligible for coverage, and how do these thresholds differ based on whether physical damage coverage is requested?",
+    "context": "Horsepower Above 450 HP for vehicles with physical damage, otherwise above 500 HP",
+    "answer": "Vehicles with horsepower exceeding 450 HP are ineligible if physical damage coverage is requested. If physical damage coverage is not requested, the horsepower threshold for ineligibility is above 500 HP."
+  },
+  {
+    "question": "Under what specific condition does a vehicle's model age become a factor for underwriting eligibility, and what is the age limit?",
+    "context": "Model Age Above 30 years, if physical damage is requested",
+    "answer": "A vehicle's model age is a factor for underwriting eligibility only when physical damage coverage is requested. In such cases, vehicles with a model age above 30 years are ineligible."
+  },
+  {
+    "question": "What are the Agent's obligations regarding the application package review, applicant approval, and identity verification before submitting any documents?",
+    "context": "The Agent is responsible for ensuring that the entire application package, including exclusions and rejections as appropriate, is reviewed with the Applicant and approved by the Applicant. The Agent is also required to verify the Applicant is the named insured prior to submitting any documents.",
+    "answer": "The Agent must ensure the applicant reviews and approves the complete application package, including any exclusions or rejections, and must also verify that the applicant is the named insured before submitting any documents."
+  },
+  {
+    "question": "What is the mandatory procedure for submitting applications, and what steps should be taken if an Agent encounters technical difficulties or if a premium adjustment occurs due to a consumer report?",
+    "context": "All applications must be submitted online using the GAINSCOconnect.com website. If you are unable to rate or bind an application through GAINSCOconnect.com please contact Customer Service or the Help Desk for assistance. If the premium quoted to any applicant changes as a result of a consumer report, we will generate a letter pursuant to the provisions of the Fair Credit Reporting Act (FCRA). A copy of the FCRA letter must be printed and provided to the applicant.",
+    "answer": "All applications must be submitted online via GAINSCOconnect.com. If an Agent cannot rate or bind an application on the website, they should contact Customer Service or the Help Desk. Furthermore, if a premium changes due to a consumer report, a FCRA letter will be generated, which the Agent must print and provide to the applicant."
+  },
+  {
+    "question": "What specific conditions must be met for an accident to be considered 'chargeable' for points, particularly concerning the driver's fault percentage and the monetary threshold for property damage or bodily injury based on different dates?",
+    "context": "A chargeable accident is one in which the driver\u2019s actions or omissions were at least 51% of the proximate cause of the accident, and, in accidents not resulting in death, but including property damage and/or bodily injury, the total loss or damage caused by the accident exceeded $750 prior to 12/11/2011 and $1,000 effective 12/11/2011 and greater.",
+    "answer": "For an accident to be chargeable, the driver must be at least 51% at fault. Additionally, if the accident did not result in death but involved property damage or bodily injury, the total loss must have exceeded $750 if it occurred before December 11, 2011, or exceeded $1,000 if it occurred on or after December 11, 2011."
+  },
+  {
+    "question": "What types of documentation are acceptable as proof for an accident, and what are the specific requirements and potential consequences if a driver submits a written declaration regarding a loss?",
+    "context": "Proof may be in the form of a copy of the accident report, police report, court record, or other relevant documentation. Also acceptable is a written declaration from the driver regarding the loss. This declaration must be made under penalty of perjury and any fraudulent or material misrepresentations will result in the voiding or cancellation of the policy.",
+    "answer": "Acceptable forms of proof include accident reports, police reports, court records, or other relevant documents. A written declaration from the driver is also acceptable, but it must be made under penalty of perjury. Any fraudulent or material misrepresentations in this declaration will lead to the policy being voided or cancelled."
+  },
+  {
+    "question": "How frequently is the Insurance Score re-ordered by the Company, how often can a named insured request a re-order, and when does a new score become effective for policy rating?",
+    "context": "The Company will re-order the score at least once every three years. At the request of the named insured, we will re-order the score up to once annually. When there is a new score, the new score will be used to determine the Insurance Score Tier beginning with the upcoming renewal policy period.",
+    "answer": "The Company re-orders the Insurance Score at least once every three years. A named insured can request a re-order up to once annually. A new score will be applied to determine the Insurance Score Tier starting with the next renewal policy period."
+  },
+  {
+    "question": "What are the conditions under which an FCRA notification must be provided to an applicant regarding their Insurance Score, and what recourse does the applicant have if they suspect credit information inaccuracies?",
+    "context": "If a score is ordered and results in an applicant not receiving the maximum rate benefit, or a No Hit or \u201cthin file\u201d result is returned, provide the applicant with the FCRA notification that is generated by the website. If a customer suspects inaccuracies in their credit information, they may request a copy of their report by contacting the vendor as instructed in the notice provided.",
+    "answer": "An FCRA notification is required if the ordered Insurance Score does not result in the maximum rate benefit, or if a \"No Hit\" or \"thin file\" result is returned. If an applicant suspects inaccuracies in their credit information, they can request a copy of their report by contacting the vendor as instructed in the provided notice."
+  }
+]

@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn-primary {
+    @apply px-4 py-2 bg-gemini-accent text-white rounded-full hover:opacity-90 transition-opacity font-medium;
+  }
+  .btn-secondary {
+    @apply px-4 py-2 bg-gemini-surface border border-gemini-border text-gemini-text rounded-full hover:bg-gemini-bg transition-colors font-medium;
+  }
+  .input-field {
+    @apply w-full px-4 py-3 bg-gemini-surface border border-gemini-border rounded-2xl focus:outline-none focus:ring-2 focus:ring-gemini-accent focus:border-transparent transition-shadow;
+  }
+  .card {
+    @apply bg-gemini-surface rounded-2xl shadow-sm border border-gemini-border overflow-hidden;
+  }
+}
+
+@layer base {
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #3f3f46;
+    border-radius: 4px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #52525b;
+  }
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: #3f3f46 transparent;
+  }
+}
